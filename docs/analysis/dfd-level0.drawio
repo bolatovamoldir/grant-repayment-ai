@@ -1,0 +1,396 @@
+<mxfile host="app.diagrams.net" pages="2">
+  <diagram name="Страница-1" id="rmUABYIYOjCpBrI9W5bH">
+    <mxGraphModel dx="1857" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="" plantUmlData="{&#xa;  &quot;data&quot;: &quot;@startuml\nleft to right direction\nskinparam dpi 200\nskinparam shadowing false\nskinparam defaultFontName Arial\nskinparam defaultFontSize 13\nskinparam nodesep 70\nskinparam ranksep 130\n\nskinparam card {\n    BackgroundColor #E3F2FD\n    BorderColor #1565C0\n    FontStyle bold\n}\n\nskinparam storage {\n    BackgroundColor #E8F5E9\n    BorderColor #2E7D32\n    FontStyle bold\n}\n\ncard \&quot;Грант алушы (түлек)\&quot; as E1\ncard \&quot;Өтеу жөніндегі маман\&quot; as E2\n\nstorage \&quot;0. Grant Repayment AI\\nжүйесі\&quot; as P0\n\ncard \&quot;Талдаушы\&quot; as E3\ncard \&quot;Әкімші\&quot; as E4\n\nE1 --&gt; P0 : Міндеттеме сұранысы\nE1 --&gt; P0 : Өтеу өтінімі (деректер)\nP0 --&gt; E1 : Грант міндеттемесі туралы ақпарат\nP0 --&gt; E1 : Өтінім күйі және тәуекел хабарламасы\n\nE2 --&gt; P0 : Өтінім бойынша шешім\nP0 --&gt; E2 : Қарауға түскен өтінімдер\\nмен тәуекел бағасы\n\nP0 --&gt; E3 : Болжау нәтижелері\\nмен өтеу статистикасы\nE3 --&gt; P0 : Аналитикалық есеп сұранысы\n\nP0 --&gt; E4 : Жүйе журналы\\nжәне баптау күйі\nE4 --&gt; P0 : Пайдаланушылар мен\\nжүйе баптаулары\n@enduml&quot;,&#xa;  &quot;config&quot;: null&#xa;}" id="WsYJCJ1qjHVEZFMY-tCw-25">
+          <mxCell connectable="0" parent="1" style="group;transparentBounds=1;editIcon=1;lockedGroup=0;groupPadding=10;" vertex="1">
+            <mxGeometry as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Грант алушы (түлек)" plantUmlId="n_0" plantUmlBaseStyle="rounded=1;absoluteArcSize=1;arcSize=5;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=13;whiteSpace=wrap;shadow=0;fontFamily=Arial;fontStyle=1;" plantUmlBaseValue="Грант алушы (түлек)" id="WsYJCJ1qjHVEZFMY-tCw-26">
+          <mxCell parent="WsYJCJ1qjHVEZFMY-tCw-25" style="rounded=1;absoluteArcSize=1;arcSize=5;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=13;whiteSpace=wrap;shadow=0;fontFamily=Arial;fontStyle=1;" vertex="1">
+            <mxGeometry height="23" width="154" x="-154" y="130" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Өтеу жөніндегі маман" plantUmlId="n_1" plantUmlBaseStyle="rounded=1;absoluteArcSize=1;arcSize=5;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=13;whiteSpace=wrap;shadow=0;fontFamily=Arial;fontStyle=1;" plantUmlBaseValue="Өтеу жөніндегі маман" id="WsYJCJ1qjHVEZFMY-tCw-27">
+          <mxCell parent="WsYJCJ1qjHVEZFMY-tCw-25" style="rounded=1;absoluteArcSize=1;arcSize=5;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=13;whiteSpace=wrap;shadow=0;fontFamily=Arial;fontStyle=1;" vertex="1">
+            <mxGeometry height="23" width="169" x="-150" y="400" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="0. Grant Repayment AI&#xa;жүйесі" plantUmlId="n_2" plantUmlBaseStyle="rounded=1;arcSize=50;fillColor=#E8F5E9;strokeColor=#2E7D32;fontSize=13;whiteSpace=wrap;shadow=0;fontFamily=Arial;fontStyle=1;" plantUmlBaseValue="0. Grant Repayment AI&#xa;жүйесі" id="WsYJCJ1qjHVEZFMY-tCw-28">
+          <mxCell parent="WsYJCJ1qjHVEZFMY-tCw-25" style="rounded=1;arcSize=50;fillColor=#E8F5E9;strokeColor=#2E7D32;fontSize=13;whiteSpace=wrap;shadow=0;fontFamily=Arial;fontStyle=1;" vertex="1">
+            <mxGeometry height="46" width="163" x="279" y="330" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Талдаушы" plantUmlId="n_3" plantUmlBaseStyle="rounded=1;absoluteArcSize=1;arcSize=5;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=13;whiteSpace=wrap;shadow=0;fontFamily=Arial;fontStyle=1;" plantUmlBaseValue="Талдаушы" id="WsYJCJ1qjHVEZFMY-tCw-29">
+          <mxCell parent="WsYJCJ1qjHVEZFMY-tCw-25" style="rounded=1;absoluteArcSize=1;arcSize=5;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=13;whiteSpace=wrap;shadow=0;fontFamily=Arial;fontStyle=1;" vertex="1">
+            <mxGeometry height="23" width="82" x="720" y="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Әкімші" plantUmlId="n_4" plantUmlBaseStyle="rounded=1;absoluteArcSize=1;arcSize=5;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=13;whiteSpace=wrap;shadow=0;fontFamily=Arial;fontStyle=1;" plantUmlBaseValue="Әкімші" id="WsYJCJ1qjHVEZFMY-tCw-30">
+          <mxCell parent="WsYJCJ1qjHVEZFMY-tCw-25" style="rounded=1;absoluteArcSize=1;arcSize=5;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=13;whiteSpace=wrap;shadow=0;fontFamily=Arial;fontStyle=1;" vertex="1">
+            <mxGeometry height="23" width="67" x="690" y="480" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Міндеттеме сұранысы" plantUmlId="e_5" plantUmlBaseStyle="strokeColor=#181818;fontColor=#000000;fontSize=13;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;exitX=1;exitY=-0.04;exitDx=0;exitDy=0;entryX=0;entryY=-0.04;entryDx=0;entryDy=0;fontFamily=Arial;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Міндеттеме сұранысы" id="WsYJCJ1qjHVEZFMY-tCw-31">
+          <mxCell edge="1" parent="WsYJCJ1qjHVEZFMY-tCw-25" style="strokeColor=#181818;fontColor=#000000;fontSize=13;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;exitX=1;exitY=-0.04;exitDx=0;exitDy=0;entryX=0;entryY=-0.04;entryDx=0;entryDy=0;fontFamily=Arial;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="210" y="180" />
+              </Array>
+              <mxPoint x="-0.003703703703467731" y="130" as="sourcePoint" />
+              <mxPoint x="290.73703703703694" y="330" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Өтеу өтінімі (деректер)" plantUmlId="e_6" plantUmlBaseStyle="strokeColor=#181818;fontColor=#000000;fontSize=13;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;exitX=1;exitY=0.32;exitDx=0;exitDy=0;entryX=0;entryY=0.32;entryDx=0;entryDy=0;fontFamily=Arial;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Өтеу өтінімі (деректер)" id="WsYJCJ1qjHVEZFMY-tCw-32">
+          <mxCell edge="1" parent="WsYJCJ1qjHVEZFMY-tCw-25" source="WsYJCJ1qjHVEZFMY-tCw-26" style="strokeColor=#181818;fontColor=#000000;fontSize=13;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;exitX=1;exitY=0.32;exitDx=0;exitDy=0;entryX=0;entryY=0.32;entryDx=0;entryDy=0;fontFamily=Arial;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="WsYJCJ1qjHVEZFMY-tCw-28">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Грант міндеттемесі туралы ақпарат" plantUmlId="e_7" plantUmlBaseStyle="strokeColor=#181818;fontColor=#000000;fontSize=13;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;exitX=0;exitY=0.68;exitDx=0;exitDy=0;entryX=1;entryY=0.68;entryDx=0;entryDy=0;fontFamily=Arial;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Грант міндеттемесі туралы ақпарат" id="WsYJCJ1qjHVEZFMY-tCw-33">
+          <mxCell edge="1" parent="WsYJCJ1qjHVEZFMY-tCw-25" source="WsYJCJ1qjHVEZFMY-tCw-28" style="strokeColor=#181818;fontColor=#000000;fontSize=13;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;exitX=0;exitY=0.68;exitDx=0;exitDy=0;entryX=1;entryY=0.68;entryDx=0;entryDy=0;fontFamily=Arial;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="WsYJCJ1qjHVEZFMY-tCw-26">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="90" y="260" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Өтінім күйі және тәуекел хабарламасы" plantUmlId="e_8" plantUmlBaseStyle="strokeColor=#181818;fontColor=#000000;fontSize=13;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;exitX=0;exitY=1.04;exitDx=0;exitDy=0;entryX=1;entryY=1.04;entryDx=0;entryDy=0;fontFamily=Arial;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Өтінім күйі және тәуекел хабарламасы" id="WsYJCJ1qjHVEZFMY-tCw-34">
+          <mxCell edge="1" parent="WsYJCJ1qjHVEZFMY-tCw-25" style="strokeColor=#181818;fontColor=#000000;fontSize=13;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;exitX=0;exitY=1.04;exitDx=0;exitDy=0;entryX=1;entryY=1.04;entryDx=0;entryDy=0;fontFamily=Arial;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="50" y="300" />
+              </Array>
+              <mxPoint x="278.99703703703693" y="363" as="sourcePoint" />
+              <mxPoint x="-11.743703703703467" y="140" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Өтінім бойынша шешім" plantUmlId="e_9" plantUmlBaseStyle="strokeColor=#181818;fontColor=#000000;fontSize=13;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;exitX=1;exitY=0.32;exitDx=0;exitDy=0;entryX=0;entryY=0.32;entryDx=0;entryDy=0;fontFamily=Arial;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Өтінім бойынша шешім" id="WsYJCJ1qjHVEZFMY-tCw-35">
+          <mxCell edge="1" parent="WsYJCJ1qjHVEZFMY-tCw-25" source="WsYJCJ1qjHVEZFMY-tCw-27" style="strokeColor=#181818;fontColor=#000000;fontSize=13;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;exitX=1;exitY=0.32;exitDx=0;exitDy=0;entryX=0;entryY=0.32;entryDx=0;entryDy=0;fontFamily=Arial;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="WsYJCJ1qjHVEZFMY-tCw-28">
+            <mxGeometry relative="1" x="-0.1334" y="-13" as="geometry">
+              <mxPoint as="offset" />
+              <Array as="points">
+                <mxPoint x="110" y="370" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Қарауға түскен өтінімдер&#xa;мен тәуекел бағасы" plantUmlId="e_10" plantUmlBaseStyle="strokeColor=#181818;fontColor=#000000;fontSize=13;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;exitX=0;exitY=0.68;exitDx=0;exitDy=0;entryX=1;entryY=0.68;entryDx=0;entryDy=0;fontFamily=Arial;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Қарауға түскен өтінімдер&#xa;мен тәуекел бағасы" id="WsYJCJ1qjHVEZFMY-tCw-36">
+          <mxCell edge="1" parent="WsYJCJ1qjHVEZFMY-tCw-25" source="WsYJCJ1qjHVEZFMY-tCw-28" style="strokeColor=#181818;fontColor=#000000;fontSize=13;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;exitX=0;exitY=0.68;exitDx=0;exitDy=0;entryX=1;entryY=0.68;entryDx=0;entryDy=0;fontFamily=Arial;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="WsYJCJ1qjHVEZFMY-tCw-27">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="180" y="470" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Болжау нәтижелері&#xa;мен өтеу статистикасы" plantUmlId="e_11" plantUmlBaseStyle="strokeColor=#181818;fontColor=#000000;fontSize=13;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;exitX=1;exitY=0.32;exitDx=0;exitDy=0;entryX=0;entryY=0.32;entryDx=0;entryDy=0;fontFamily=Arial;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Болжау нәтижелері&#xa;мен өтеу статистикасы" id="WsYJCJ1qjHVEZFMY-tCw-37">
+          <mxCell edge="1" parent="WsYJCJ1qjHVEZFMY-tCw-25" style="strokeColor=#181818;fontColor=#000000;fontSize=13;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;exitX=1;exitY=0.32;exitDx=0;exitDy=0;entryX=0;entryY=0.32;entryDx=0;entryDy=0;fontFamily=Arial;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="520" y="180" />
+              </Array>
+              <mxPoint x="442" y="337.36" as="sourcePoint" />
+              <mxPoint x="720" y="80.00000000000001" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Аналитикалық есеп сұранысы" plantUmlId="e_12" plantUmlBaseStyle="strokeColor=#181818;fontColor=#000000;fontSize=13;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;exitX=0;exitY=0.68;exitDx=0;exitDy=0;entryX=1;entryY=0.68;entryDx=0;entryDy=0;fontFamily=Arial;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Аналитикалық есеп сұранысы" id="WsYJCJ1qjHVEZFMY-tCw-38">
+          <mxCell edge="1" parent="WsYJCJ1qjHVEZFMY-tCw-25" source="WsYJCJ1qjHVEZFMY-tCw-29" style="strokeColor=#181818;fontColor=#000000;fontSize=13;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;exitX=0;exitY=0.68;exitDx=0;exitDy=0;entryX=1;entryY=0.68;entryDx=0;entryDy=0;fontFamily=Arial;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="WsYJCJ1qjHVEZFMY-tCw-28">
+            <mxGeometry relative="1" x="0.0093" as="geometry">
+              <mxPoint as="offset" />
+              <Array as="points">
+                <mxPoint x="620" y="270" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Жүйе журналы&#xa;және баптау күйі" plantUmlId="e_13" plantUmlBaseStyle="strokeColor=#181818;fontColor=#000000;fontSize=13;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;exitX=1;exitY=0.32;exitDx=0;exitDy=0;entryX=0;entryY=0.32;entryDx=0;entryDy=0;fontFamily=Arial;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Жүйе журналы&#xa;және баптау күйі" id="WsYJCJ1qjHVEZFMY-tCw-39">
+          <mxCell edge="1" parent="WsYJCJ1qjHVEZFMY-tCw-25" source="WsYJCJ1qjHVEZFMY-tCw-28" style="strokeColor=#181818;fontColor=#000000;fontSize=13;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;exitX=1;exitY=0.32;exitDx=0;exitDy=0;entryX=0;entryY=0.32;entryDx=0;entryDy=0;fontFamily=Arial;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="WsYJCJ1qjHVEZFMY-tCw-30">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="580" y="410" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Пайдаланушылар мен&#xa;жүйе баптаулары" plantUmlId="e_14" plantUmlBaseStyle="strokeColor=#181818;fontColor=#000000;fontSize=13;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;exitX=0;exitY=0.68;exitDx=0;exitDy=0;entryX=1;entryY=0.68;entryDx=0;entryDy=0;fontFamily=Arial;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Пайдаланушылар мен&#xa;жүйе баптаулары" id="WsYJCJ1qjHVEZFMY-tCw-40">
+          <mxCell edge="1" parent="WsYJCJ1qjHVEZFMY-tCw-25" source="WsYJCJ1qjHVEZFMY-tCw-30" style="strokeColor=#181818;fontColor=#000000;fontSize=13;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;exitX=0;exitY=0.68;exitDx=0;exitDy=0;entryX=1;entryY=0.68;entryDx=0;entryDy=0;fontFamily=Arial;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="WsYJCJ1qjHVEZFMY-tCw-28">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="500" y="480" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="2CWbGq_6xhljwIHy_r1B" name="Страница-2">
+    <mxGraphModel dx="2068" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="" plantUmlData="{&#xa;  &quot;data&quot;: &quot;@startuml\nleft to right direction\nskinparam dpi 200\nskinparam shadowing false\nskinparam defaultFontName Arial\nskinparam defaultFontSize 12\nskinparam nodesep 60\nskinparam ranksep 120\n\nskinparam card {\n    BackgroundColor #E3F2FD\n    BorderColor #1565C0\n    FontStyle bold\n}\n\nskinparam storage {\n    BackgroundColor #E8F5E9\n    BorderColor #2E7D32\n    FontStyle bold\n}\n\nskinparam queue {\n    BackgroundColor #FFF3E0\n    BorderColor #EF6C00\n    FontStyle bold\n}\n\n&#39; Сол жақ: Сыртқы объектілер (README пайдаланушылары)\ncard \&quot;Әкімші\&quot; as E4\ncard \&quot;Грант алушы (түлек)\&quot; as E1\ncard \&quot;Өтеу жөніндегі маман\&quot; as E2\ncard \&quot;Талдаушы\&quot; as E3\n\n&#39; Ортасы: 4 негізгі процесс\nstorage \&quot;1.0 Пайдаланушылар мен\\nбаптауларды басқару\&quot; as P1\nstorage \&quot;2.0 Өтеу өтінімін беру\\nжәне тәуекелді болжау\&quot; as P2\nstorage \&quot;3.0 Өтінімдерді қарау\\nжәне шешім қабылдау\&quot; as P3\nstorage \&quot;4.0 Аналитикалық есептерді\\nқалыптастыру\&quot; as P4\n\n&#39; Оң жақ: 6 деректер қоймасы (ERD және SQL кестелеріне сәйкес)\nqueue \&quot;D1: users\&quot; as D1\nqueue \&quot;D2: grants\&quot; as D2\nqueue \&quot;D5: organizations\&quot; as D5\nqueue \&quot;D6: graduate_organizations\&quot; as D6\nqueue \&quot;D3: repayment_requests\&quot; as D3\nqueue \&quot;D4: risk_predictions\&quot; as D4\n\n&#39; 1.0 Процесс ағындары\nE4 --&gt; P1 : Пайдаланушылар мен\\nжүйе баптаулары\nP1 --&gt; E4 : Жүйе журналы\\nжәне баптау күйі\nP1 --&gt; D1 : Пайдаланушы деректерін жаңарту\nD1 --&gt; P1 : Пайдаланушылар тізімі\n\n&#39; 2.0 Процесс ағындары (12-апта Sequence сценарийі)\nE1 --&gt; P2 : Міндеттеме сұранысы\nE1 --&gt; P2 : Өтеу өтінімі (деректер)\nP2 --&gt; E1 : Грант міндеттемесі туралы ақпарат\nP2 --&gt; E1 : Өтінім күйі және тәуекел хабарламасы\nD2 --&gt; P2 : Грант міндеттемесі деректері\nD5 --&gt; P2 : Ұйым деректері\nD6 --&gt; P2 : Еңбек өтілі деректері\nP2 --&gt; D3 : Өтінім жазбасы\nP2 --&gt; D4 : Тәуекел болжамы нәтижесі\nP2 --&gt; D6 : Жаңа жұмыс орны деректері\n\n&#39; 3.0 Процесс ағындары\nE2 --&gt; P3 : Өтінім бойынша шешім\nP3 --&gt; E2 : Қарауға түскен өтінімдер\\nмен тәуекел бағасы\nD3 --&gt; P3 : Күтудегі өтінімдер\nD4 --&gt; P3 : Тәуекел деңгейі\nP3 --&gt; D3 : Бекітілген/қабылданбаған мәртебе\n\n&#39; 4.0 Процесс ағындары\nE3 --&gt; P4 : Аналитикалық есеп сұранысы\nP4 --&gt; E3 : Болжау нәтижелері\\nмен өтеу статистикасы\nD2 --&gt; P4 : Гранттар статистикасы\nD3 --&gt; P4 : Өтінімдер статистикасы\nD4 --&gt; P4 : Болжау көрсеткіштері\n@enduml&quot;,&#xa;  &quot;config&quot;: null&#xa;}" id="TJj7BCHE2HAAWErsl5mc-1">
+          <mxCell connectable="0" parent="1" style="group;transparentBounds=1;editIcon=1;lockedGroup=0;groupPadding=10;" vertex="1">
+            <mxGeometry as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Әкімші" plantUmlId="n_0" plantUmlBaseStyle="rounded=1;absoluteArcSize=1;arcSize=5;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=12;whiteSpace=wrap;shadow=0;fontFamily=Arial;fontStyle=1;" plantUmlBaseValue="Әкімші" id="TJj7BCHE2HAAWErsl5mc-2">
+          <mxCell parent="TJj7BCHE2HAAWErsl5mc-1" style="rounded=1;absoluteArcSize=1;arcSize=5;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=12;whiteSpace=wrap;shadow=0;fontFamily=Arial;fontStyle=1;" vertex="1">
+            <mxGeometry height="23" width="67" x="117" y="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Грант алушы (түлек)" plantUmlId="n_1" plantUmlBaseStyle="rounded=1;absoluteArcSize=1;arcSize=5;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=12;whiteSpace=wrap;shadow=0;fontFamily=Arial;fontStyle=1;" plantUmlBaseValue="Грант алушы (түлек)" id="TJj7BCHE2HAAWErsl5mc-3">
+          <mxCell parent="TJj7BCHE2HAAWErsl5mc-1" style="rounded=1;absoluteArcSize=1;arcSize=5;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=12;whiteSpace=wrap;shadow=0;fontFamily=Arial;fontStyle=1;" vertex="1">
+            <mxGeometry height="23" width="154" x="50" y="130" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Өтеу жөніндегі маман" plantUmlId="n_2" plantUmlBaseStyle="rounded=1;absoluteArcSize=1;arcSize=5;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=12;whiteSpace=wrap;shadow=0;fontFamily=Arial;fontStyle=1;" plantUmlBaseValue="Өтеу жөніндегі маман" id="TJj7BCHE2HAAWErsl5mc-4">
+          <mxCell parent="TJj7BCHE2HAAWErsl5mc-1" style="rounded=1;absoluteArcSize=1;arcSize=5;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=12;whiteSpace=wrap;shadow=0;fontFamily=Arial;fontStyle=1;" vertex="1">
+            <mxGeometry height="23" width="169" x="540" y="183" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Талдаушы" plantUmlId="n_3" plantUmlBaseStyle="rounded=1;absoluteArcSize=1;arcSize=5;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=12;whiteSpace=wrap;shadow=0;fontFamily=Arial;fontStyle=1;" plantUmlBaseValue="Талдаушы" id="TJj7BCHE2HAAWErsl5mc-5">
+          <mxCell parent="TJj7BCHE2HAAWErsl5mc-1" style="rounded=1;absoluteArcSize=1;arcSize=5;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=12;whiteSpace=wrap;shadow=0;fontFamily=Arial;fontStyle=1;" vertex="1">
+            <mxGeometry height="23" width="82" x="-20" y="600" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="1.0 Пайдаланушылар мен&#xa;баптауларды басқару" plantUmlId="n_4" plantUmlBaseStyle="rounded=1;arcSize=50;fillColor=#E8F5E9;strokeColor=#2E7D32;fontSize=12;whiteSpace=wrap;shadow=0;fontFamily=Arial;fontStyle=1;" plantUmlBaseValue="1.0 Пайдаланушылар мен&#xa;баптауларды басқару" id="TJj7BCHE2HAAWErsl5mc-6">
+          <mxCell parent="TJj7BCHE2HAAWErsl5mc-1" style="rounded=1;arcSize=50;fillColor=#E8F5E9;strokeColor=#2E7D32;fontSize=12;whiteSpace=wrap;shadow=0;fontFamily=Arial;fontStyle=1;" vertex="1">
+            <mxGeometry height="46" width="181" x="334.5" y="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="2.0 Өтеу өтінімін беру&#xa;және тәуекелді болжау" plantUmlId="n_5" plantUmlBaseStyle="rounded=1;arcSize=50;fillColor=#E8F5E9;strokeColor=#2E7D32;fontSize=12;whiteSpace=wrap;shadow=0;fontFamily=Arial;fontStyle=1;" plantUmlBaseValue="2.0 Өтеу өтінімін беру&#xa;және тәуекелді болжау" id="TJj7BCHE2HAAWErsl5mc-7">
+          <mxCell parent="TJj7BCHE2HAAWErsl5mc-1" style="rounded=1;arcSize=50;fillColor=#E8F5E9;strokeColor=#2E7D32;fontSize=12;whiteSpace=wrap;shadow=0;fontFamily=Arial;fontStyle=1;" vertex="1">
+            <mxGeometry height="46" width="177" x="338.5" y="230" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="3.0 Өтінімдерді қарау&#xa;және шешім қабылдау" plantUmlId="n_6" plantUmlBaseStyle="rounded=1;arcSize=50;fillColor=#E8F5E9;strokeColor=#2E7D32;fontSize=12;whiteSpace=wrap;shadow=0;fontFamily=Arial;fontStyle=1;" plantUmlBaseValue="3.0 Өтінімдерді қарау&#xa;және шешім қабылдау" id="TJj7BCHE2HAAWErsl5mc-8">
+          <mxCell parent="TJj7BCHE2HAAWErsl5mc-1" style="rounded=1;arcSize=50;fillColor=#E8F5E9;strokeColor=#2E7D32;fontSize=12;whiteSpace=wrap;shadow=0;fontFamily=Arial;fontStyle=1;" vertex="1">
+            <mxGeometry height="46" width="173" x="790" y="206" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="D1: users" plantUmlId="n_8" plantUmlBaseStyle="shape=cylinder3;direction=south;size=5;fillColor=#FFF3E0;strokeColor=#EF6C00;fontSize=12;whiteSpace=wrap;spacingRight=10;shadow=0;fontFamily=Arial;fontStyle=1;" plantUmlBaseValue="D1: users" id="TJj7BCHE2HAAWErsl5mc-10">
+          <mxCell parent="TJj7BCHE2HAAWErsl5mc-1" style="shape=cylinder3;direction=south;size=5;fillColor=#FFF3E0;strokeColor=#EF6C00;fontSize=12;whiteSpace=wrap;spacingRight=10;shadow=0;fontFamily=Arial;fontStyle=1;" vertex="1">
+            <mxGeometry height="27" width="83" x="740" y="59" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="D2: grants" plantUmlId="n_9" plantUmlBaseStyle="shape=cylinder3;direction=south;size=5;fillColor=#FFF3E0;strokeColor=#EF6C00;fontSize=12;whiteSpace=wrap;spacingRight=10;shadow=0;fontFamily=Arial;fontStyle=1;" plantUmlBaseValue="D2: grants" id="TJj7BCHE2HAAWErsl5mc-11">
+          <mxCell parent="TJj7BCHE2HAAWErsl5mc-1" style="shape=cylinder3;direction=south;size=5;fillColor=#FFF3E0;strokeColor=#EF6C00;fontSize=12;whiteSpace=wrap;spacingRight=10;shadow=0;fontFamily=Arial;fontStyle=1;" vertex="1">
+            <mxGeometry height="27" width="87" x="350" y="440" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="D5: organizations" plantUmlId="n_10" plantUmlBaseStyle="shape=cylinder3;direction=south;size=5;fillColor=#FFF3E0;strokeColor=#EF6C00;fontSize=12;whiteSpace=wrap;spacingRight=10;shadow=0;fontFamily=Arial;fontStyle=1;" plantUmlBaseValue="D5: organizations" id="TJj7BCHE2HAAWErsl5mc-12">
+          <mxCell parent="TJj7BCHE2HAAWErsl5mc-1" style="shape=cylinder3;direction=south;size=5;fillColor=#FFF3E0;strokeColor=#EF6C00;fontSize=12;whiteSpace=wrap;spacingRight=10;shadow=0;fontFamily=Arial;fontStyle=1;" vertex="1">
+            <mxGeometry height="27" width="135" x="109.5" y="546.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="D6: graduate_organizations" plantUmlId="n_11" plantUmlBaseStyle="shape=cylinder3;direction=south;size=5;fillColor=#FFF3E0;strokeColor=#EF6C00;fontSize=12;whiteSpace=wrap;spacingRight=10;shadow=0;fontFamily=Arial;fontStyle=1;" plantUmlBaseValue="D6: graduate_organizations" id="TJj7BCHE2HAAWErsl5mc-13">
+          <mxCell parent="TJj7BCHE2HAAWErsl5mc-1" style="shape=cylinder3;direction=south;size=5;fillColor=#FFF3E0;strokeColor=#EF6C00;fontSize=12;whiteSpace=wrap;spacingRight=10;shadow=0;fontFamily=Arial;fontStyle=1;" vertex="1">
+            <mxGeometry height="27" width="201" y="400" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="D3: repayment_requests" plantUmlId="n_12" plantUmlBaseStyle="shape=cylinder3;direction=south;size=5;fillColor=#FFF3E0;strokeColor=#EF6C00;fontSize=12;whiteSpace=wrap;spacingRight=10;shadow=0;fontFamily=Arial;fontStyle=1;" plantUmlBaseValue="D3: repayment_requests" id="TJj7BCHE2HAAWErsl5mc-14">
+          <mxCell parent="TJj7BCHE2HAAWErsl5mc-1" style="shape=cylinder3;direction=south;size=5;fillColor=#FFF3E0;strokeColor=#EF6C00;fontSize=12;whiteSpace=wrap;spacingRight=10;shadow=0;fontFamily=Arial;fontStyle=1;" vertex="1">
+            <mxGeometry height="27" width="181" x="740" y="573.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="D4: risk_predictions" plantUmlId="n_13" plantUmlBaseStyle="shape=cylinder3;direction=south;size=5;fillColor=#FFF3E0;strokeColor=#EF6C00;fontSize=12;whiteSpace=wrap;spacingRight=10;shadow=0;fontFamily=Arial;fontStyle=1;" plantUmlBaseValue="D4: risk_predictions" id="TJj7BCHE2HAAWErsl5mc-15">
+          <mxCell parent="TJj7BCHE2HAAWErsl5mc-1" style="shape=cylinder3;direction=south;size=5;fillColor=#FFF3E0;strokeColor=#EF6C00;fontSize=12;whiteSpace=wrap;spacingRight=10;shadow=0;fontFamily=Arial;fontStyle=1;" vertex="1">
+            <mxGeometry height="27" width="154" x="555" y="400" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Пайдаланушылар мен&#xa;жүйе баптаулары" plantUmlId="e_14" plantUmlBaseStyle="strokeColor=#181818;fontColor=#000000;fontSize=12;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;exitX=1;exitY=0.32;exitDx=0;exitDy=0;entryX=0;entryY=0.32;entryDx=0;entryDy=0;fontFamily=Arial;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Пайдаланушылар мен&#xa;жүйе баптаулары" id="TJj7BCHE2HAAWErsl5mc-16">
+          <mxCell edge="1" parent="TJj7BCHE2HAAWErsl5mc-1" source="TJj7BCHE2HAAWErsl5mc-2" style="strokeColor=#181818;fontColor=#000000;fontSize=12;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;exitX=1;exitY=0.32;exitDx=0;exitDy=0;entryX=0;entryY=0.32;entryDx=0;entryDy=0;fontFamily=Arial;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="TJj7BCHE2HAAWErsl5mc-6">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Жүйе журналы&#xa;және баптау күйі" plantUmlId="e_15" plantUmlBaseStyle="strokeColor=#181818;fontColor=#000000;fontSize=12;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;exitX=0;exitY=0.68;exitDx=0;exitDy=0;entryX=1;entryY=0.68;entryDx=0;entryDy=0;fontFamily=Arial;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Жүйе журналы&#xa;және баптау күйі" id="TJj7BCHE2HAAWErsl5mc-17">
+          <mxCell edge="1" parent="TJj7BCHE2HAAWErsl5mc-1" source="TJj7BCHE2HAAWErsl5mc-6" style="strokeColor=#181818;fontColor=#000000;fontSize=12;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;exitX=0;exitY=0.68;exitDx=0;exitDy=0;entryX=1;entryY=0.68;entryDx=0;entryDy=0;fontFamily=Arial;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="TJj7BCHE2HAAWErsl5mc-2">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="260" y="100" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Пайдаланушы деректерін жаңарту" plantUmlId="e_16" plantUmlBaseStyle="strokeColor=#181818;fontColor=#000000;fontSize=12;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;exitX=1;exitY=0.32;exitDx=0;exitDy=0;entryX=0;entryY=0.32;entryDx=0;entryDy=0;fontFamily=Arial;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Пайдаланушы деректерін жаңарту" id="TJj7BCHE2HAAWErsl5mc-18">
+          <mxCell edge="1" parent="TJj7BCHE2HAAWErsl5mc-1" source="TJj7BCHE2HAAWErsl5mc-6" style="strokeColor=#181818;fontColor=#000000;fontSize=12;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;exitX=1;exitY=0.32;exitDx=0;exitDy=0;entryX=0;entryY=0.32;entryDx=0;entryDy=0;fontFamily=Arial;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="TJj7BCHE2HAAWErsl5mc-10">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="660" y="50" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Пайдаланушылар тізімі" plantUmlId="e_17" plantUmlBaseStyle="strokeColor=#181818;fontColor=#000000;fontSize=12;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;exitX=0;exitY=0.68;exitDx=0;exitDy=0;entryX=1;entryY=0.68;entryDx=0;entryDy=0;fontFamily=Arial;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Пайдаланушылар тізімі" id="TJj7BCHE2HAAWErsl5mc-19">
+          <mxCell edge="1" parent="TJj7BCHE2HAAWErsl5mc-1" source="TJj7BCHE2HAAWErsl5mc-10" style="strokeColor=#181818;fontColor=#000000;fontSize=12;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;exitX=0;exitY=0.68;exitDx=0;exitDy=0;entryX=1;entryY=0.68;entryDx=0;entryDy=0;fontFamily=Arial;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="TJj7BCHE2HAAWErsl5mc-6">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="640" y="100" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Міндеттеме сұранысы" plantUmlId="e_18" plantUmlBaseStyle="strokeColor=#181818;fontColor=#000000;fontSize=12;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;exitX=1;exitY=-0.04;exitDx=0;exitDy=0;entryX=0;entryY=-0.04;entryDx=0;entryDy=0;fontFamily=Arial;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Міндеттеме сұранысы" id="TJj7BCHE2HAAWErsl5mc-20">
+          <mxCell edge="1" parent="TJj7BCHE2HAAWErsl5mc-1" source="TJj7BCHE2HAAWErsl5mc-3" style="strokeColor=#181818;fontColor=#000000;fontSize=12;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;exitX=1;exitY=-0.04;exitDx=0;exitDy=0;entryX=0;entryY=-0.04;entryDx=0;entryDy=0;fontFamily=Arial;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="TJj7BCHE2HAAWErsl5mc-7">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="320" y="190" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Өтеу өтінімі (деректер)" plantUmlId="e_19" plantUmlBaseStyle="strokeColor=#181818;fontColor=#000000;fontSize=12;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;exitX=1;exitY=0.32;exitDx=0;exitDy=0;entryX=0;entryY=0.32;entryDx=0;entryDy=0;fontFamily=Arial;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Өтеу өтінімі (деректер)" id="TJj7BCHE2HAAWErsl5mc-21">
+          <mxCell edge="1" parent="TJj7BCHE2HAAWErsl5mc-1" source="TJj7BCHE2HAAWErsl5mc-3" style="strokeColor=#181818;fontColor=#000000;fontSize=12;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;exitX=1;exitY=0.32;exitDx=0;exitDy=0;entryX=0;entryY=0.32;entryDx=0;entryDy=0;fontFamily=Arial;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="TJj7BCHE2HAAWErsl5mc-7">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="220" y="220" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Грант міндеттемесі туралы ақпарат" plantUmlId="e_20" plantUmlBaseStyle="strokeColor=#181818;fontColor=#000000;fontSize=13;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Грант міндеттемесі туралы ақпарат" id="TJj7BCHE2HAAWErsl5mc-22">
+          <mxCell edge="1" parent="TJj7BCHE2HAAWErsl5mc-1" source="TJj7BCHE2HAAWErsl5mc-7" style="strokeColor=#181818;fontColor=#000000;fontSize=13;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="TJj7BCHE2HAAWErsl5mc-3">
+            <mxGeometry relative="1" x="-0.2209" as="geometry">
+              <Array as="points">
+                <mxPoint x="480" y="230" />
+                <mxPoint x="480" y="140" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Грант міндеттемесі деректері" plantUmlId="e_22" plantUmlBaseStyle="strokeColor=#181818;fontColor=#000000;fontSize=12;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;fontFamily=Arial;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Грант міндеттемесі деректері" id="TJj7BCHE2HAAWErsl5mc-24">
+          <mxCell edge="1" parent="TJj7BCHE2HAAWErsl5mc-1" source="TJj7BCHE2HAAWErsl5mc-11" style="strokeColor=#181818;fontColor=#000000;fontSize=12;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;fontFamily=Arial;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="TJj7BCHE2HAAWErsl5mc-7">
+            <mxGeometry relative="1" x="-0.9126" y="17" as="geometry">
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Ұйым деректері" plantUmlId="e_23" plantUmlBaseStyle="strokeColor=#181818;fontColor=#000000;fontSize=12;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;fontFamily=Arial;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Ұйым деректері" id="TJj7BCHE2HAAWErsl5mc-25">
+          <mxCell edge="1" parent="TJj7BCHE2HAAWErsl5mc-1" source="TJj7BCHE2HAAWErsl5mc-12" style="strokeColor=#181818;fontColor=#000000;fontSize=12;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;fontFamily=Arial;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="TJj7BCHE2HAAWErsl5mc-7">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="270" y="400" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Еңбек өтілі деректері" plantUmlId="e_24" plantUmlBaseStyle="strokeColor=#181818;fontColor=#000000;fontSize=12;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;exitX=1;exitY=0.32;exitDx=0;exitDy=0;entryX=0;entryY=0.32;entryDx=0;entryDy=0;fontFamily=Arial;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Еңбек өтілі деректері" id="TJj7BCHE2HAAWErsl5mc-26">
+          <mxCell edge="1" parent="TJj7BCHE2HAAWErsl5mc-1" style="strokeColor=#181818;fontColor=#000000;fontSize=12;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;exitX=1;exitY=0.32;exitDx=0;exitDy=0;entryX=0;entryY=0.32;entryDx=0;entryDy=0;fontFamily=Arial;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="183.99999999999983" y="404.28" as="sourcePoint" />
+              <mxPoint x="365.82" y="251.99999999999991" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Өтінім жазбасы" plantUmlId="e_25" plantUmlBaseStyle="strokeColor=#181818;fontColor=#000000;fontSize=12;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;fontFamily=Arial;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Өтінім жазбасы" id="TJj7BCHE2HAAWErsl5mc-27">
+          <mxCell edge="1" parent="TJj7BCHE2HAAWErsl5mc-1" source="TJj7BCHE2HAAWErsl5mc-9" style="strokeColor=#181818;fontColor=#000000;fontSize=12;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;fontFamily=Arial;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="TJj7BCHE2HAAWErsl5mc-14">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Тәуекел болжамы нәтижесі" plantUmlId="e_26" plantUmlBaseStyle="strokeColor=#181818;fontColor=#000000;fontSize=12;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;fontFamily=Arial;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Тәуекел болжамы нәтижесі" id="TJj7BCHE2HAAWErsl5mc-28">
+          <mxCell edge="1" parent="TJj7BCHE2HAAWErsl5mc-1" source="TJj7BCHE2HAAWErsl5mc-7" style="strokeColor=#181818;fontColor=#000000;fontSize=12;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;fontFamily=Arial;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=0.894;exitY=0.937;exitDx=0;exitDy=0;exitPerimeter=0;">
+            <mxGeometry relative="1" x="0.3276" y="-3" as="geometry">
+              <mxPoint y="-1" as="offset" />
+              <mxPoint x="419.9978458049889" y="276" as="sourcePoint" />
+              <mxPoint x="580" y="400" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Жаңа жұмыс орны деректері" plantUmlId="e_27" plantUmlBaseStyle="strokeColor=#181818;fontColor=#000000;fontSize=12;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;exitX=0;exitY=0.68;exitDx=0;exitDy=0;entryX=1;entryY=0.68;entryDx=0;entryDy=0;fontFamily=Arial;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Жаңа жұмыс орны деректері" id="TJj7BCHE2HAAWErsl5mc-29">
+          <mxCell edge="1" parent="TJj7BCHE2HAAWErsl5mc-1" source="TJj7BCHE2HAAWErsl5mc-7" style="strokeColor=#181818;fontColor=#000000;fontSize=12;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;exitX=0;exitY=0.68;exitDx=0;exitDy=0;entryX=1;entryY=0.68;entryDx=0;entryDy=0;fontFamily=Arial;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="TJj7BCHE2HAAWErsl5mc-13">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="150" y="320" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Өтінім бойынша шешім" plantUmlId="e_28" plantUmlBaseStyle="strokeColor=#181818;fontColor=#000000;fontSize=12;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;exitX=1;exitY=0.32;exitDx=0;exitDy=0;entryX=0;entryY=0.32;entryDx=0;entryDy=0;fontFamily=Arial;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Өтінім бойынша шешім" id="TJj7BCHE2HAAWErsl5mc-30">
+          <mxCell edge="1" parent="TJj7BCHE2HAAWErsl5mc-1" source="TJj7BCHE2HAAWErsl5mc-4" style="strokeColor=#181818;fontColor=#000000;fontSize=12;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;exitX=1;exitY=0.32;exitDx=0;exitDy=0;entryX=0;entryY=0.32;entryDx=0;entryDy=0;fontFamily=Arial;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="TJj7BCHE2HAAWErsl5mc-8">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Қарауға түскен өтінімдер&#xa;мен тәуекел бағасы" plantUmlId="e_29" plantUmlBaseStyle="strokeColor=#181818;fontColor=#000000;fontSize=12;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;exitX=0;exitY=0.68;exitDx=0;exitDy=0;entryX=1;entryY=0.68;entryDx=0;entryDy=0;fontFamily=Arial;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Қарауға түскен өтінімдер&#xa;мен тәуекел бағасы" id="TJj7BCHE2HAAWErsl5mc-31">
+          <mxCell edge="1" parent="TJj7BCHE2HAAWErsl5mc-1" source="TJj7BCHE2HAAWErsl5mc-8" style="strokeColor=#181818;fontColor=#000000;fontSize=12;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;exitX=0;exitY=0.68;exitDx=0;exitDy=0;entryX=1;entryY=0.68;entryDx=0;entryDy=0;fontFamily=Arial;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="TJj7BCHE2HAAWErsl5mc-4">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Күтудегі өтінімдер" plantUmlId="e_30" plantUmlBaseStyle="strokeColor=#181818;fontColor=#000000;fontSize=12;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;exitX=1;exitY=0.32;exitDx=0;exitDy=0;entryX=0;entryY=0.32;entryDx=0;entryDy=0;fontFamily=Arial;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Күтудегі өтінімдер" id="TJj7BCHE2HAAWErsl5mc-32">
+          <mxCell edge="1" parent="TJj7BCHE2HAAWErsl5mc-1" source="TJj7BCHE2HAAWErsl5mc-14" style="strokeColor=#181818;fontColor=#000000;fontSize=12;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;entryX=0;entryY=0.32;entryDx=0;entryDy=0;fontFamily=Arial;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=0;exitY=0.75;exitDx=0;exitDy=-2.5;exitPerimeter=0;" target="TJj7BCHE2HAAWErsl5mc-8">
+            <mxGeometry relative="1" x="-0.2998" as="geometry">
+              <mxPoint as="offset" />
+              <Array as="points">
+                <mxPoint x="790" y="450" />
+              </Array>
+              <mxPoint x="760" y="570" as="sourcePoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Тәуекел деңгейі" plantUmlId="e_31" plantUmlBaseStyle="strokeColor=#181818;fontColor=#000000;fontSize=12;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;fontFamily=Arial;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Тәуекел деңгейі" id="TJj7BCHE2HAAWErsl5mc-33">
+          <mxCell edge="1" parent="TJj7BCHE2HAAWErsl5mc-1" source="TJj7BCHE2HAAWErsl5mc-15" style="strokeColor=#181818;fontColor=#000000;fontSize=12;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;fontFamily=Arial;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="TJj7BCHE2HAAWErsl5mc-8">
+            <mxGeometry relative="1" x="-0.5029" y="-2" as="geometry">
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Бекітілген/қабылданбаған мәртебе" plantUmlId="e_32" plantUmlBaseStyle="strokeColor=#181818;fontColor=#000000;fontSize=12;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;exitX=0;exitY=0.68;exitDx=0;exitDy=0;entryX=1;entryY=0.68;entryDx=0;entryDy=0;fontFamily=Arial;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Бекітілген/қабылданбаған мәртебе" id="TJj7BCHE2HAAWErsl5mc-34">
+          <mxCell edge="1" parent="TJj7BCHE2HAAWErsl5mc-1" style="strokeColor=#181818;fontColor=#000000;fontSize=12;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;entryX=0.013;entryY=0.187;entryDx=0;entryDy=0;fontFamily=Arial;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;entryPerimeter=0;" target="TJj7BCHE2HAAWErsl5mc-14">
+            <mxGeometry relative="1" x="-0.1011" as="geometry">
+              <Array as="points">
+                <mxPoint x="890" y="410" />
+              </Array>
+              <mxPoint x="880" y="250" as="sourcePoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Аналитикалық есеп сұранысы" plantUmlId="e_33" plantUmlBaseStyle="strokeColor=#181818;fontColor=#000000;fontSize=12;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;exitX=1;exitY=0.32;exitDx=0;exitDy=0;entryX=0;entryY=0.32;entryDx=0;entryDy=0;fontFamily=Arial;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Аналитикалық есеп сұранысы" id="TJj7BCHE2HAAWErsl5mc-35">
+          <mxCell edge="1" parent="TJj7BCHE2HAAWErsl5mc-1" source="TJj7BCHE2HAAWErsl5mc-5" style="strokeColor=#181818;fontColor=#000000;fontSize=12;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;exitX=1;exitY=0.32;exitDx=0;exitDy=0;entryX=0;entryY=0.32;entryDx=0;entryDy=0;fontFamily=Arial;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="TJj7BCHE2HAAWErsl5mc-9">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Болжау нәтижелері&#xa;мен өтеу статистикасы" plantUmlId="e_34" plantUmlBaseStyle="strokeColor=#181818;fontColor=#000000;fontSize=12;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;exitX=0;exitY=0.68;exitDx=0;exitDy=0;entryX=1;entryY=0.68;entryDx=0;entryDy=0;fontFamily=Arial;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Болжау нәтижелері&#xa;мен өтеу статистикасы" id="TJj7BCHE2HAAWErsl5mc-36">
+          <mxCell edge="1" parent="TJj7BCHE2HAAWErsl5mc-1" source="TJj7BCHE2HAAWErsl5mc-9" style="strokeColor=#181818;fontColor=#000000;fontSize=12;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;exitX=0;exitY=0.68;exitDx=0;exitDy=0;entryX=1;entryY=0.68;entryDx=0;entryDy=0;fontFamily=Arial;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="TJj7BCHE2HAAWErsl5mc-5">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Гранттар статистикасы" plantUmlId="e_35" plantUmlBaseStyle="strokeColor=#181818;fontColor=#000000;fontSize=12;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;fontFamily=Arial;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Гранттар статистикасы" id="TJj7BCHE2HAAWErsl5mc-37">
+          <mxCell edge="1" parent="TJj7BCHE2HAAWErsl5mc-1" source="TJj7BCHE2HAAWErsl5mc-11" style="strokeColor=#181818;fontColor=#000000;fontSize=12;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;fontFamily=Arial;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="TJj7BCHE2HAAWErsl5mc-9">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Өтінімдер статистикасы" plantUmlId="e_36" plantUmlBaseStyle="strokeColor=#181818;fontColor=#000000;fontSize=12;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;fontFamily=Arial;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Өтінімдер статистикасы" id="TJj7BCHE2HAAWErsl5mc-38">
+          <mxCell edge="1" parent="TJj7BCHE2HAAWErsl5mc-1" source="TJj7BCHE2HAAWErsl5mc-14" style="strokeColor=#181818;fontColor=#000000;fontSize=12;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;fontFamily=Arial;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="TJj7BCHE2HAAWErsl5mc-9">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Болжау көрсеткіштері" plantUmlId="e_37" plantUmlBaseStyle="strokeColor=#181818;fontColor=#000000;fontSize=12;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;fontFamily=Arial;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="Болжау көрсеткіштері" id="TJj7BCHE2HAAWErsl5mc-39">
+          <mxCell edge="1" parent="TJj7BCHE2HAAWErsl5mc-1" source="TJj7BCHE2HAAWErsl5mc-15" style="strokeColor=#181818;fontColor=#000000;fontSize=12;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;fontFamily=Arial;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="TJj7BCHE2HAAWErsl5mc-9">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="TJj7BCHE2HAAWErsl5mc-40" edge="1" parent="TJj7BCHE2HAAWErsl5mc-1" source="TJj7BCHE2HAAWErsl5mc-7" style="strokeColor=#181818;fontColor=#000000;fontSize=12;html=1;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;endArrow=classicThin;endFill=1;fontFamily=Arial;curved=0;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="TJj7BCHE2HAAWErsl5mc-9" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="430" />
+            </Array>
+            <mxPoint x="434" y="320" as="sourcePoint" />
+            <mxPoint x="435" y="519" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="4.0 Аналитикалық есептерді&#xa;қалыптастыру" plantUmlId="n_7" plantUmlBaseStyle="rounded=1;arcSize=50;fillColor=#E8F5E9;strokeColor=#2E7D32;fontSize=12;whiteSpace=wrap;shadow=0;fontFamily=Arial;fontStyle=1;" plantUmlBaseValue="4.0 Аналитикалық есептерді&#xa;қалыптастыру" id="TJj7BCHE2HAAWErsl5mc-9">
+          <mxCell parent="TJj7BCHE2HAAWErsl5mc-1" style="rounded=1;arcSize=50;fillColor=#E8F5E9;strokeColor=#2E7D32;fontSize=12;whiteSpace=wrap;shadow=0;fontFamily=Arial;fontStyle=1;" vertex="1">
+            <mxGeometry height="46" width="212" x="350" y="595" as="geometry" />
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
