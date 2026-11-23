@@ -25,3 +25,9 @@
 ## Құжаттама
 - [Activity: өтеу өтінімін беру](docs/analysis/activity-submit-repayment-request.png)
 - [Sequence: өтеу өтінімін беру](docs/analysis/sequence-submit-repayment-request.png)
+- [DFD: контекстік диаграмма](docs/analysis/dfd-context.png) ([drawio](docs/analysis/dfd-context.drawio))
+- [DFD: 0-деңгейлі диаграмма](docs/analysis/dfd-level0.png) ([drawio](docs/analysis/dfd-level0.drawio))
+- [DFD: 1-деңгейлі диаграмма](docs/analysis/dfd-level1.png) ([drawio](docs/analysis/dfd-level1.drawio))
+- [ERD: деректер қорының моделі](docs/database/erd.png) ([drawio](docs/database/erd.drawio))
+- [SQL: деректер қорының схемасы және сұраныстар](docs/database/schema.sql)
+- [SQL: сұраныстар нәтижесі](docs/database/query-results.png)
